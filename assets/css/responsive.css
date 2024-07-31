@@ -52,7 +52,7 @@
   }
 
   .main-footer .footer-bottom .inner-container {
-    max-width: 100%;
+    max-width: 80%;
   }
 
   .request-form .ui-selectmenu-button.ui-button,
@@ -669,6 +669,7 @@
   .room-detail-tabs .tab-btns li {
     width: 100%;
     display: block;
+    font-size:15px;
   }
 
   .why-choose-us .features-box {
