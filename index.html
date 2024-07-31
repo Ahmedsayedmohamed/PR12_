@@ -10,7 +10,7 @@
     <title>Louvre Innovations</title>
     <link
       rel="shortcut icon"
-      href="assets/images/favicon.JPG"
+      href="assets/images/favicon.png"
       type="image/x-icon"
     />
     <link rel="icon" href="assets/images/favicon.JPG" type="image/x-icon" />
@@ -222,7 +222,7 @@
         <!-- Mobile Menu  -->
         <div class="mobile-menu">
           <div class="menu-backdrop"></div>
-          <div class="close-btn">
+          <div class="close-btn rounded-3">
             <span class="icon flaticon-plus-symbol"></span>
           </div>
 
@@ -387,7 +387,10 @@
                     <a
                       href="assets/images/resource/about-img-1.jpg"
                       class="lightbox-image"
-                      ><img src="assets/images/resource/about-img-1.jpg" alt=""
+                      ><img
+                        src="assets/images/resource/about-img-1.jpg"
+                        class="rounded-4"
+                        alt=""
                     /></a>
                   </figure>
                   <span class="title">get your new home</span>
@@ -483,7 +486,7 @@
         <div class="auto-container">
           <div class="sec-title text-center">
             <span class="title">room details</span>
-            <h2>ROOM DIMENSIONS</h2>
+            <h2 class="mb-4">ROOM DIMENSIONS</h2>
           </div>
         </div>
         <!--Room Detail Tabs-->
@@ -491,15 +494,19 @@
           <div class="tabs-box">
             <div class="auto-container">
               <!--Tab Btns-->
-              <ul class="tab-btns tab-buttons clearfix">
-                <li data-tab="#room-tab-1" class="tab-btn">Living room</li>
-                <li data-tab="#room-tab-2" class="tab-btn active-btn">
+              <div class="row">
+                <ul
+                  class="tab-btns tab-buttons clearfix d-flex justify-content-center"
+                >
+                  <li data-tab="#room-tab-1" class="tab-btn">Living room</li>
+                  <!-- <li data-tab="#room-tab-2" class="tab-btn active-btn">
                   Dinning room
-                </li>
-                <li data-tab="#room-tab-3" class="tab-btn">kitchen</li>
-                <li data-tab="#room-tab-4" class="tab-btn">master bedroom</li>
-                <li data-tab="#room-tab-5" class="tab-btn">bathroom</li>
-              </ul>
+                </li> -->
+                  <li data-tab="#room-tab-3" class="tab-btn">kitchen</li>
+                  <li data-tab="#room-tab-4" class="tab-btn">master bedroom</li>
+                  <li data-tab="#room-tab-5" class="tab-btn">bathroom</li>
+                </ul>
+              </div>
 
               <!--Tabs Container-->
               <div class="tabs-content">
@@ -510,17 +517,23 @@
                     <div class="content-column col-lg-6 col-md-12 col-sm-12">
                       <div class="inner-column clearfix">
                         <h2>Living room</h2>
-                        <div class="room-size"><span>size:</span> 30 x 45</div>
+                        <!-- <div class="room-size"><span>size:</span> 30 x 45</div> -->
                         <div class="text">
-                          There are many variations of passages of psum
-                          available, but the majority have suffered alteration
-                          in some form, by injected humour, or randomised words
-                          which don't look even slightly believable. If you are
-                          going to use a passage of Lorem Ipsum, you need to be
-                          sure there isn't anything embarrassing hidden in the
-                          middle of text.have suffered alteration in some form,
-                          by injected humour randomised words which don't look
-                          even slightly believable.
+                          The Living Room is designed for both relaxation and
+                          entertainment, blending comfort with technology. This
+                          living room features modular furniture that can be
+                          reconfigured for different occasions—whether for movie
+                          nights, game days, or casual gatherings. A large,
+                          plush sectional sofa surrounds a custom-designed
+                          coffee table that doubles as a gaming surface with
+                          built-in screens.<br /><br />
+                          The entertainment wall showcases a retractable
+                          projector screen that can transform the space into a
+                          mini-theater, while ambient lighting can be adjusted
+                          to suit the mood. Art pieces throughout the room are
+                          interactive, incorporating augmented reality elements
+                          that come to life through a smartphone app, providing
+                          an engaging experience for guests.
                         </div>
                         <div class="row">
                           <div class="room-info col-lg-4 col-md-4 col-sm-12">
@@ -542,7 +555,9 @@
                     </div>
 
                     <!-- Image Column -->
-                    <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                    <div
+                      class="image-column col-lg-6 col-md-12 col-sm-12 my-auto"
+                    >
                       <div class="inner-column">
                         <figure class="image">
                           <a
@@ -551,6 +566,7 @@
                             ><img
                               src="assets/images/resource/room-img-1.jpg"
                               alt=""
+                              class="rounded-4"
                           /></a>
                         </figure>
                       </div>
@@ -559,10 +575,10 @@
                 </div>
 
                 <!--Tab -->
-                <div class="tab active-tab" id="room-tab-2">
-                  <div class="row">
-                    <!-- Content Column -->
-                    <div class="content-column col-lg-6 col-md-12 col-sm-12">
+                <!-- <div class="tab active-tab" id="room-tab-2">
+                  <div class="row"> -->
+                <!-- Content Column -->
+                <!-- <div class="content-column col-lg-6 col-md-12 col-sm-12">
                       <div class="inner-column clearfix">
                         <h2>Dinning room</h2>
                         <div class="room-size"><span>size:</span> 25 x 35</div>
@@ -594,10 +610,10 @@
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> -->
 
-                    <!-- Image Column -->
-                    <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                <!-- Image Column -->
+                <!-- <div class="image-column col-lg-6 col-md-12 col-sm-12">
                       <div class="inner-column">
                         <figure class="image">
                           <a
@@ -609,9 +625,9 @@
                           /></a>
                         </figure>
                       </div>
-                    </div>
-                  </div>
-                </div>
+                    </div> -->
+                <!-- </div>
+                </div> -->
 
                 <!--Tab -->
                 <div class="tab" id="room-tab-3">
@@ -620,17 +636,26 @@
                     <div class="content-column col-lg-6 col-md-12 col-sm-12">
                       <div class="inner-column clearfix">
                         <h2>Kitchen</h2>
-                        <div class="room-size"><span>size:</span> 20 x 40</div>
+                        <!-- <div class="room-size"><span>size:</span> 20 x 40</div> -->
                         <div class="text">
-                          There are many variations of passages of psum
-                          available, but the majority have suffered alteration
-                          in some form, by injected humour, or randomised words
-                          which don't look even slightly believable. If you are
-                          going to use a passage of Lorem Ipsum, you need to be
-                          sure there isn't anything embarrassing hidden in the
-                          middle of text.have suffered alteration in some form,
-                          by injected humour randomised words which don't look
-                          even slightly believable.
+                          The kitchen blends functionality with artistic
+                          expression. This kitchen features an open-plan layout
+                          with a large central island that serves as both a
+                          cooking space and a gathering spot. The countertype
+                          are made of recycled glass, shimmering in various
+                          colors, while the cabinetry showcases a mix of
+                          reclaimed wood and bold, high-gloss finishes, creating
+                          a striking contrast.<br /><br />
+                          A standout feature is the wall of spice racks that
+                          doubles as an art installation. Each spice jar is
+                          uniquely designed and labeled, with the labels
+                          featuring vibrant illustrations of the spices inside.
+                          The backslash is a mosaic of colorful tiles that
+                          represent the world’s culinary regions, each tile
+                          depicting a different cuisine. Smart appliances are
+                          seamlessly integrated, allowing for touches operation
+                          and voice control, enhancing the modern feel of the
+                          kitchen.
                         </div>
                         <div class="row">
                           <div class="room-info col-lg-4 col-md-4 col-sm-12">
@@ -652,7 +677,9 @@
                     </div>
 
                     <!-- Image Column -->
-                    <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                    <div
+                      class="image-column col-lg-6 col-md-12 col-sm-12 my-auto"
+                    >
                       <div class="inner-column">
                         <figure class="image">
                           <a
@@ -661,6 +688,7 @@
                             ><img
                               src="assets/images/resource/room-img-3.jpg"
                               alt=""
+                              class="rounded-4"
                           /></a>
                         </figure>
                       </div>
@@ -675,17 +703,23 @@
                     <div class="content-column col-lg-6 col-md-12 col-sm-12">
                       <div class="inner-column clearfix">
                         <h2>Master Bedroom</h2>
-                        <div class="room-size"><span>size:</span> 40 x 55</div>
+                        <!-- <div class="room-size"><span>size:</span> 40 x 55</div> -->
                         <div class="text">
-                          There are many variations of passages of psum
-                          available, but the majority have suffered alteration
-                          in some form, by injected humour, or randomised words
-                          which don't look even slightly believable. If you are
-                          going to use a passage of Lorem Ipsum, you need to be
-                          sure there isn't anything embarrassing hidden in the
-                          middle of text.have suffered alteration in some form,
-                          by injected humour randomised words which don't look
-                          even slightly believable.
+                          The master bedroom is designed to be a peaceful haven,
+                          encouraging relaxation and restful sleep. The color
+                          palette consists of muted earth tones, with soft
+                          greens and browns that evoke a sense of nature. A
+                          feature wall made of reclaimed wood serves as a
+                          backdrop for a plush, oversized headboard, creating a
+                          cozy focal point. <br /><br />Large windows allow for
+                          ample natural light, and sheer curtains flutter gently
+                          in the breeze, providing privacy while maintaining an
+                          airy feel. The bedroom incorporates a reading nook
+                          with a suspended chair and a small bookshelf, inviting
+                          leisurely afternoons. A unique touch is the ceiling,
+                          which features a starry night sky mural that glows
+                          softly in the dark, providing a dream-like atmosphere
+                          for bedtime.
                         </div>
                         <div class="row">
                           <div class="room-info col-lg-4 col-md-4 col-sm-12">
@@ -707,15 +741,18 @@
                     </div>
 
                     <!-- Image Column -->
-                    <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                    <div
+                      class="image-column col-lg-6 col-md-12 col-sm-12 my-auto"
+                    >
                       <div class="inner-column">
                         <figure class="image">
                           <a
                             href="assets/images/resource/room-img-4.jpg"
-                            class="lightbox-image"
+                            class="lightbox-image rounded-4"
                             ><img
                               src="assets/images/resource/room-img-4.jpg"
                               alt=""
+                              class="rounded-4"
                           /></a>
                         </figure>
                       </div>
@@ -730,17 +767,26 @@
                     <div class="content-column col-lg-6 col-md-12 col-sm-12">
                       <div class="inner-column clearfix">
                         <h2>Bathroom</h2>
-                        <div class="room-size"><span>size:</span> 15 x 25</div>
+                        <!-- <div class="room-size"><span>size:</span> 15 x 25</div> -->
                         <div class="text">
-                          There are many variations of passages of psum
-                          available, but the majority have suffered alteration
-                          in some form, by injected humour, or randomised words
-                          which don't look even slightly believable. If you are
-                          going to use a passage of Lorem Ipsum, you need to be
-                          sure there isn't anything embarrassing hidden in the
-                          middle of text.have suffered alteration in some form,
-                          by injected humour randomised words which don't look
-                          even slightly believable.
+                          This bathroom design turns everyday routines into a
+                          luxurious experience. features a freestanding soaking
+                          tub positioned under a large window, providing a
+                          serene view of nature or a private garden. Surrounding
+                          the tub is a pebble stone pathway leading to a
+                          rainfall shower enclosed in glass, with adjustable
+                          lighting that mimics natural daylight, offering an
+                          invigorating or relaxing atmosphere depending on the
+                          time of day.<br /><br />
+                          Natural materials dominate the space: bamboo flooring,
+                          stone countertype, and organic cotton textiles create
+                          a warm and inviting environment. A floating vanity
+                          with vessel sinks made of hand-blown glass adds an
+                          artistic touch, while built-in shelves display
+                          carefully curated candles and plants that contribute
+                          to a calming atmosphere. Subtle aromatherapy diffusers
+                          and soft, ambient music ensure that every bath becomes
+                          a mini-retreat.
                         </div>
                         <div class="row">
                           <div class="room-info col-lg-4 col-md-4 col-sm-12">
@@ -762,7 +808,9 @@
                     </div>
 
                     <!-- Image Column -->
-                    <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                    <div
+                      class="image-column col-lg-6 col-md-12 col-sm-12 my-auto"
+                    >
                       <div class="inner-column">
                         <figure class="image">
                           <a
@@ -771,6 +819,7 @@
                             ><img
                               src="assets/images/resource/room-img-6.jpg"
                               alt=""
+                              class="rounded-4"
                           /></a>
                         </figure>
                       </div>
@@ -785,7 +834,8 @@
       <!--End Room Section -->
 
       <!--! why Choose us -->
-      <section class="why-choose-us">
+
+      <section class="why-choose-us position-relative">
         <div
           class="image-layer"
           style="background-image: url(assets/images/background/1.jpg)"
@@ -796,13 +846,13 @@
               <div class="inner-column wow fadeInRight">
                 <div class="sec-title light">
                   <!-- <span class="title">villa amazing features</span> -->
-                  <h2>why you should choose us</h2>
+                  <h2 class="my-4">why you should choose us</h2>
                 </div>
               </div>
             </div>
             <div class="feature-column col-lg-6 col-md-12 col-sm-12">
               <div class="inner-column wow fadeInLeft">
-                <div class="features-box">
+                <div class="features-box rounded-bottom-3">
                   <ul class="feature-list">
                     <li>higher quality</li>
                     <li>lower cost</li>
@@ -823,14 +873,14 @@
       <section class="call-to-action">
         <div class="auto-container">
           <div class="sec-title light text-center wow fadeInUp">
-            <span class="title">don’t hestitate to contact us</span>
+            <span class="title">don’t hesitate to contact us</span>
             <h2>MAKE AN APPOINTMENT NOW</h2>
             <span class="number"
               ><a href="tel:01024515466">0102 451 5466</a></span
             >
           </div>
-          <div class="btn-box wow fadeInUp">
-            <a href="about.html" class="theme-btn btn-style-two"
+          <div class="btn-box my-4 wow fadeInUp">
+            <a href="about.html" class="theme-btn rounded-3 btn-style-two"
               ><span class="btn-title">Learn more</span></a
             >
           </div>
@@ -1028,22 +1078,24 @@
         <div class="auto-container">
           <div class="sec-title text-center">
             <span class="title">blogs & articles</span>
-            <h2>Our Blogs</h2>
+            <h2 class="mb-5">Our Blogs</h2>
           </div>
 
           <div class="row">
             <!-- News Block -->
             <div class="blogs-block col-lg-6 col-md-12 col-sm-12">
-              <div class="inner-box wow fadeInLeft">
-                <div class="image-box">
-                  <figure class="image">
+              <div class="inner-box wow fadeInLeft rounded-4">
+                <div class="image-box ">
+                  <figure class="image rounded-4">
                     <a href="blogs.html"
-                      ><img src="assets/images/resource/blogs-1.jpg" alt=""
+                      ><img
+                        src="assets/images/resource/blogs-1.jpg"
+                        class="overflow-hidden"
+                        alt=""
                     /></a>
                   </figure>
                 </div>
                 <div class="lower-content">
-                  <span class="date">9 may 2023</span>
                   <h5>
                     <a href="blogs.html">Sustainable architecture</a>
                   </h5>
@@ -1062,16 +1114,18 @@
 
             <!-- News Block -->
             <div class="blogs-block col-lg-6 col-md-12 col-sm-12">
-              <div class="inner-box wow fadeInRight">
+              <div class="inner-box wow fadeInRight rounded-4">
                 <div class="image-box">
-                  <figure class="image">
+                  <figure class="image rounded-4">
                     <a href="blogs.html"
-                      ><img src="assets/images/resource/blogs-2.jpg" alt=""
+                      ><img
+                        src="assets/images/resource/blogs-2.jpg"
+                        class="overflow-hidden"
+                        alt=""
                     /></a>
                   </figure>
                 </div>
                 <div class="lower-content">
-                  <span class="date">1 may 2023</span>
                   <h5>
                     <a href="blogs.html"
                       >ways that architects have envisioned</a
@@ -1080,7 +1134,7 @@
                   <div class="text">
                     One of the ways that architects have envisioned sustainable
                     architecture is through the use of recycled building
-                    materials. This concept ......
+                    materials ......
                   </div>
                   <!-- <ul class="post-info">
                     <li><a href="blogs-detail.html">by John</a></li>
@@ -1091,7 +1145,7 @@
             </div>
           </div>
           <div class="btn-box wow fadeInUp text-center">
-            <a href="blogs.html" class="theme-btn btn-style-two"
+            <a href="blogs.html" class="theme-btn rounded-4 btn-style-two"
               ><span class="btn-title">See More </span></a
             >
           </div>
@@ -1104,9 +1158,9 @@
         <div class="gallery-carousel owl-carousel owl-theme">
           <!-- Gallery Item -->
           <div class="gallery-item">
-            <div class="image-box">
+            <div class="image-box rounded-4 overflow-hidden">
               <figure class="image">
-                <img src="assets/images/gallery/1.jpg" alt="" />
+                <img src="assets/images/gallery/1.jpg" class="px-1" alt="" />
               </figure>
               <div class="overlay-box">
                 <a
@@ -1121,9 +1175,94 @@
 
           <!-- Gallery Item -->
           <div class="gallery-item">
-            <div class="image-box">
+            <div class="image-box rounded-4 overflow-hidden">
               <figure class="image">
-                <img src="assets/images/gallery/2.jpg" alt="" />
+                <img src="assets/images/gallery/2.jpg" class="px-1" alt="" />
+              </figure>
+              <div class="overlay-box">
+                <a
+                  href="assets/images/gallery/2.jpg"
+                  class="lightbox-image"
+                  data-fancybox="gallery"
+                  ><span class="icon flaticon-add"></span
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gallery Item -->
+          <div class="gallery-item">
+            <div class="image-box rounded-4 overflow-hidden">
+              <figure class="image">
+                <img src="assets/images/gallery/3.jpg" class="px-1" alt="" />
+              </figure>
+              <div class="overlay-box">
+                <a
+                  href="assets/images/gallery/3.jpg"
+                  class="lightbox-image"
+                  data-fancybox="gallery"
+                  ><span class="icon flaticon-add"></span
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gallery Item -->
+          <div class="gallery-item">
+            <div class="image-box rounded-4 overflow-hidden">
+              <figure class="image">
+                <img src="assets/images/gallery/4.jpg" class="px-1" alt="" />
+              </figure>
+              <div class="overlay-box">
+                <a
+                  href="assets/images/gallery/4.jpg"
+                  class="lightbox-image"
+                  data-fancybox="gallery"
+                  ><span class="icon flaticon-add"></span
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gallery Item -->
+          <div class="gallery-item">
+            <div class="image-box rounded-4 overflow-hidden">
+              <figure class="image">
+                <img src="assets/images/gallery/5.jpg" class="px-1" alt="" />
+              </figure>
+              <div class="overlay-box">
+                <a
+                  href="assets/images/gallery/5.jpg"
+                  class="lightbox-image"
+                  data-fancybox="gallery"
+                  ><span class="icon flaticon-add"></span
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gallery Item -->
+          <div class="gallery-item">
+            <div class="image-box rounded-4 overflow-hidden">
+              <figure class="image">
+                <img src="assets/images/gallery/6.jpg" class="px-1" alt="" />
+              </figure>
+              <div class="overlay-box">
+                <a
+                  href="assets/images/gallery/1.jpg"
+                  class="lightbox-image"
+                  data-fancybox="gallery"
+                  ><span class="icon flaticon-add"></span
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gallery Item -->
+          <div class="gallery-item">
+            <div class="image-box rounded-4 overflow-hidden">
+              <figure class="image">
+                <img src="assets/images/gallery/7.png" class="px-1" alt="" />
               </figure>
               <div class="overlay-box">
                 <a
@@ -1139,131 +1278,12 @@
           <!-- Gallery Item -->
           <div class="gallery-item">
             <div class="image-box">
-              <figure class="image">
-                <img src="assets/images/gallery/3.jpg" alt="" />
+              <figure class="image rounded-4 overflow-hidden">
+                <img src="assets/images/gallery/8.png" class="px-1" alt="" />
               </figure>
               <div class="overlay-box">
                 <a
                   href="assets/images/gallery/3.jpg"
-                  class="lightbox-image"
-                  data-fancybox="gallery"
-                  ><span class="icon flaticon-add"></span
-                ></a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Gallery Item -->
-          <div class="gallery-item">
-            <div class="image-box">
-              <figure class="image">
-                <img src="assets/images/gallery/4.jpg" alt="" />
-              </figure>
-              <div class="overlay-box">
-                <a
-                  href="assets/images/gallery/4.jpg"
-                  class="lightbox-image"
-                  data-fancybox="gallery"
-                  ><span class="icon flaticon-add"></span
-                ></a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Gallery Item -->
-          <div class="gallery-item">
-            <div class="image-box">
-              <figure class="image">
-                <img src="assets/images/gallery/5.jpg" alt="" />
-              </figure>
-              <div class="overlay-box">
-                <a
-                  href="assets/images/gallery/5.jpg"
-                  class="lightbox-image"
-                  data-fancybox="gallery"
-                  ><span class="icon flaticon-add"></span
-                ></a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Gallery Item -->
-          <div class="gallery-item">
-            <div class="image-box">
-              <figure class="image">
-                <img src="assets/images/gallery/1.jpg" alt="" />
-              </figure>
-              <div class="overlay-box">
-                <a
-                  href="assets/images/gallery/1.jpg"
-                  class="lightbox-image"
-                  data-fancybox="gallery"
-                  ><span class="icon flaticon-add"></span
-                ></a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Gallery Item -->
-          <div class="gallery-item">
-            <div class="image-box">
-              <figure class="image">
-                <img src="assets/images/gallery/2.jpg" alt="" />
-              </figure>
-              <div class="overlay-box">
-                <a
-                  href="assets/images/gallery/2.jpg"
-                  class="lightbox-image"
-                  data-fancybox="gallery"
-                  ><span class="icon flaticon-add"></span
-                ></a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Gallery Item -->
-          <div class="gallery-item">
-            <div class="image-box">
-              <figure class="image">
-                <img src="assets/images/gallery/3.jpg" alt="" />
-              </figure>
-              <div class="overlay-box">
-                <a
-                  href="assets/images/gallery/3.jpg"
-                  class="lightbox-image"
-                  data-fancybox="gallery"
-                  ><span class="icon flaticon-add"></span
-                ></a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Gallery Item -->
-          <div class="gallery-item">
-            <div class="image-box">
-              <figure class="image">
-                <img src="assets/images/gallery/4.jpg" alt="" />
-              </figure>
-              <div class="overlay-box">
-                <a
-                  href="assets/images/gallery/4.jpg"
-                  class="lightbox-image"
-                  data-fancybox="gallery"
-                  ><span class="icon flaticon-add"></span
-                ></a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Gallery Item -->
-          <div class="gallery-item">
-            <div class="image-box">
-              <figure class="image">
-                <img src="assets/images/gallery/5.jpg" alt="" />
-              </figure>
-              <div class="overlay-box">
-                <a
-                  href="assets/images/gallery/5.jpg"
                   class="lightbox-image"
                   data-fancybox="gallery"
                   ><span class="icon flaticon-add"></span
@@ -1334,13 +1354,14 @@
                     <div class="footer-widget map-widget">
                       <!-- Social Outer -->
                       <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110514.86412658032!2d30.844603069065286!3d30.04863250149111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14585a29f1b324d9%3A0xc5c5525706430b8d!2sEl%20Sheikh%20Zayed%20City%2C%20Giza%20Governorate!5e0!3m2!1sen!2seg!4v1707515554919!5m2!1sen!2seg"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.281629255829!2d31.0009148!3d30.028777200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14585b42ad7a5d75%3A0xf6c387c4d670144d!2sLouvre%20innovations!5e0!3m2!1sen!2seg!4v1722448187809!5m2!1sen!2seg"
                         width="600"
                         height="450"
                         style="border: 0"
                         allowfullscreen=""
                         loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"
+                        class="rounded-4"
                       ></iframe>
                     </div>
                   </div>
